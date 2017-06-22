@@ -1,0 +1,197 @@
+.menu {
+    background:#2e2e2d;
+    color:#fff;
+    height:80px;
+}
+#navbar-1
+{
+    font-family:Helvetica;
+    font-size: 16px;
+    color: #d8ca11;
+    padding-top: 15px;
+
+}
+/* Dropdown menu background color*/
+.navbar-nav > li > .dropdown-menu {     background-color: #555555;  }
+/* Dropdown menu font color*/
+.navbar-nav > li > .dropdown-menu a{   color: #e7e7e7;  }
+.navbar-nav > li > .dropdown-menu a:hover{   background-color: #ffd000; color: #2e2e2d;  font-weight: bold;}
+
+
+
+.logo_alc
+{
+    height:76px;
+    width: 170px;
+    padding-top: 5px;
+    padding-right:0px;
+}
+
+/*REDES SOCIALES*/
+#redessociales_header
+{
+    padding-top: 0px;
+    padding-right: 10px;
+}
+.face
+{
+    width:20px;
+    height:20px;
+    opacity: 0.5;
+}
+.tweet
+{
+    width:20px;
+    height:20px;
+    opacity: 0.5;
+
+}
+.face:hover
+{
+    opacity: 1;
+
+}
+.tweet:hover
+{
+    opacity: 1;
+}
+/*FIN REDES SOCIALES*/
+
+/*Principal estilos*/
+.BannerPrincipal
+{
+    background:#030303 ;
+/*   background-image: url("../img/alacalle-bg.jpg");*/
+    font-family:Helvetica;
+    color:#fdfefe;
+}
+
+.logoBanner
+{
+    height: 300px;
+    width: 350px;
+
+  /*position: fixed;*/
+}
+.txteslogan
+{
+    padding-left: 0px;
+ 
+}
+
+.eslogan
+{
+    font-family:Helvetica;
+    font-size: 25px;
+    color: #ffd000;
+    /*padding-top: 370px;
+    padding-left: 380px;*/
+
+}
+
+/*--------------------------*/
+
+/*Antros estilos*/
+.Antro
+{
+    background:#76d8fc;
+}
+/*--------------------------*/
+/*Bar estilos*/
+.bar
+{
+    background:#4dfa9f;
+}
+/*--------------------------*/
+/*Carrtea estilos*/
+.carreta
+{
+    background:#f7ba6b;
+}
+/*--------------------------*/
+/*favoritos estilos*/
+.favoritos
+{
+    background:#b7a583;
+}
+/*--------------------------*/
+/*cine estilos*/
+.cine
+{
+    background:#df9898;
+}
+/*--------------------------*/
+
+/*eventos estilos*/
+.eventos
+{
+    background:#847e7e;
+}
+/*--------------------------*/
+/*familia estilos*/
+.familia
+{
+    background:#fa7db8;
+}
+/*--------------------------*/
+/*familia estilos*/
+.restaurant
+{
+    background:#f9edc2;
+}
+/*--------------------------*/
+.separador
+{
+    padding-top: 75px;
+    height: 1200px;
+
+}
+/* EFECTO BOTON */
+.comenzar {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+.comenzar span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.comenzar span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.comenzar:hover span {
+    padding-right: 25px;
+}
+
+.comenzar:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* Footer ------- */
+
+.copyright
+{
+    color: #fdfefe;
+padding-bottom: 10px;
+}
